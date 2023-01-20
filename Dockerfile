@@ -2,8 +2,6 @@ FROM python
 
 EXPOSE 5000
 
-RUN mkdir -p /app
-
 WORKDIR /app
 
 COPY . .
