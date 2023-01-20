@@ -1,7 +1,7 @@
 pipeline {
     environment {
         registry = 'naceur06/tp3bis'
-        registryCredential = 'naceur06'
+        registryCredential = 'naceur'
         dockerImage = ''
     }
     agent any
